@@ -10,11 +10,4 @@ public class Aritmetica {
 
         return numerador/denominador;
     }
-
-    public static int multiplicacion(int x, int y)throws OperacionException{
-        if(y == -1){
-            throw new OperacionException("multiplciacion por -1");
-        }
-        return x * y;
-    }
 }
